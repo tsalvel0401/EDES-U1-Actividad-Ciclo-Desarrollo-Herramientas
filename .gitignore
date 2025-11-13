@@ -1,0 +1,10 @@
+# Archivos compilados
+*.class
+bin/
+
+# Documentación generada
+docs/html/
+
+# Archivos temporales
+*.tmp
+*~
