@@ -49,6 +49,17 @@ public class Calculadora {
         }
         return a / b;
     }
+
+    public double potencia(double base, double exponente) {
+    	return Math.pow(base, exponente);
+    }
+
+    public double raizCuadrada(double numero) {
+    	if (numero < 0) {
+           throw new ArithmeticException("No se puede calcular raíz de número negativo");
+     	}
+    	return Math.sqrt(numero);
+     }
     
     /**
      * Método principal - punto de entrada del programa
