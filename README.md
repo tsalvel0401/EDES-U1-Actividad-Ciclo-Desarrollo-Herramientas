@@ -1,3 +1,5 @@
+`Herramientas Utilizadas: Git Bash (Shell)`
+
 # ☕ Actividad: Ciclo de vida básico de un proyecto JAVA
 
 ## Desarrollo con Herramientas Básicas (sin IDE)
