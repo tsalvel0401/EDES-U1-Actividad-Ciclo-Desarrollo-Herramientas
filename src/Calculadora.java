@@ -67,7 +67,16 @@ public class Calculadora {
      */
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
-        
+	Scanner scanner = new Scanner(System.in);
+    
+    	System.out.print("Primer número: ");
+    	double a = scanner.nextDouble();
+    
+    	System.out.print("Segundo número: ");
+    	double b = scanner.nextDouble();
+    
+    	System.out.println("Suma: " + calc.sumar(a, b));        
+
         System.out.println("=== MI CALCULADORA ===");
         System.out.println();
         
